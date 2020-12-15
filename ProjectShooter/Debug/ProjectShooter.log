@@ -1,0 +1,53 @@
+﻿  Enemy.cpp
+  EnemyManager.cpp
+c:\users\jean_\desktop\cours\projet prog shooter\projectshooter\projectshooter\enemymanager.cpp(37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\jean_\desktop\cours\projet prog shooter\projectshooter\projectshooter\enemymanager.cpp(43): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\jean_\desktop\cours\projet prog shooter\projectshooter\projectshooter\enemymanager.cpp(44): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\jean_\desktop\cours\projet prog shooter\projectshooter\projectshooter\enemymanager.cpp(71): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\jean_\desktop\cours\projet prog shooter\projectshooter\projectshooter\enemymanager.cpp(79): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\jean_\desktop\cours\projet prog shooter\projectshooter\projectshooter\enemymanager.cpp(92): warning C4018: '>': signed/unsigned mismatch
+  GameInstance.cpp
+c:\users\jean_\desktop\cours\projet prog shooter\projectshooter\projectshooter\gameinstance.cpp(18): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\jean_\desktop\cours\projet prog shooter\projectshooter\projectshooter\gameinstance.cpp(46): warning C4018: '<': signed/unsigned mismatch
+c:\users\jean_\desktop\cours\projet prog shooter\projectshooter\projectshooter\gameinstance.cpp(100): warning C4018: '<': signed/unsigned mismatch
+c:\users\jean_\desktop\cours\projet prog shooter\projectshooter\projectshooter\gameinstance.cpp(113): warning C4018: '<': signed/unsigned mismatch
+c:\users\jean_\desktop\cours\projet prog shooter\projectshooter\projectshooter\gameinstance.cpp(125): warning C4018: '<': signed/unsigned mismatch
+c:\users\jean_\desktop\cours\projet prog shooter\projectshooter\projectshooter\gameinstance.cpp(145): warning C4018: '<': signed/unsigned mismatch
+  GameObject.cpp
+  I_MoveStyle.cpp
+  Main.cpp
+  Move_Close_top.cpp
+  Move_Close_Bot.cpp
+  Move_Far.cpp
+  ParticleManager.cpp
+c:\users\jean_\desktop\cours\projet prog shooter\projectshooter\projectshooter\particlemanager.cpp(20): warning C4018: '<': signed/unsigned mismatch
+c:\users\jean_\desktop\cours\projet prog shooter\projectshooter\projectshooter\particlemanager.cpp(59): warning C4018: '<': signed/unsigned mismatch
+  Pattern.cpp
+  Player.cpp
+  Projectile.cpp
+  Shoot_Berserk.cpp
+  Shoot_Conic.cpp
+  Shoot_Linear.cpp
+  SpaceShip.cpp
+  Generating Code...
+  ProjectShooter.vcxproj -> C:\Users\jean_\Desktop\Cours\Projet Prog shooter\ProjectShooter\Debug\ProjectShooter.exe

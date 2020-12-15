@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\F_MoveStyle">
+      <UniqueIdentifier>{c3ee398e-dd80-445d-9aea-9c3138c57c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\F_ShootStyle">
+      <UniqueIdentifier>{b0083ce8-8d4d-475a-b5ef-771b5bdc40d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pattern_Stratège">
+      <UniqueIdentifier>{119848c9-71d5-48da-90e9-c5cf6f60f2b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pattern_Stratège\F_ShootStyle">
+      <UniqueIdentifier>{99d6c238-bb0c-4056-9fc5-9263001e0b5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pattern_Stratège\F_MoveStyle">
+      <UniqueIdentifier>{762ac4d4-11ce-4696-9328-ce5d6465dd8c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceShip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInstance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shoot_Linear.cpp">
+      <Filter>Source Files\F_ShootStyle</Filter>
+    </ClCompile>
+    <ClCompile Include="Shoot_Conic.cpp">
+      <Filter>Source Files\F_ShootStyle</Filter>
+    </ClCompile>
+    <ClCompile Include="Move_Far.cpp">
+      <Filter>Source Files\F_MoveStyle</Filter>
+    </ClCompile>
+    <ClCompile Include="I_MoveStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shoot_Berserk.cpp">
+      <Filter>Source Files\F_ShootStyle</Filter>
+    </ClCompile>
+    <ClCompile Include="Move_Close_Bot.cpp">
+      <Filter>Source Files\F_MoveStyle</Filter>
+    </ClCompile>
+    <ClCompile Include="Move_Close_top.cpp">
+      <Filter>Source Files\F_MoveStyle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceShip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Index.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shoot_Conic.h">
+      <Filter>Header Files\Pattern_Stratège\F_ShootStyle</Filter>
+    </ClInclude>
+    <ClInclude Include="Shoot_Linear.h">
+      <Filter>Header Files\Pattern_Stratège\F_ShootStyle</Filter>
+    </ClInclude>
+    <ClInclude Include="Move_Far.h">
+      <Filter>Header Files\Pattern_Stratège\F_MoveStyle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shoot_Berserk.h">
+      <Filter>Header Files\Pattern_Stratège\F_ShootStyle</Filter>
+    </ClInclude>
+    <ClInclude Include="Move_Close_Bot.h">
+      <Filter>Header Files\Pattern_Stratège\F_MoveStyle</Filter>
+    </ClInclude>
+    <ClInclude Include="Move_Close_top.h">
+      <Filter>Header Files\Pattern_Stratège\F_MoveStyle</Filter>
+    </ClInclude>
+    <ClInclude Include="Pattern.h">
+      <Filter>Header Files\Pattern_Stratège</Filter>
+    </ClInclude>
+    <ClInclude Include="I_ShootStyle.h">
+      <Filter>Header Files\Pattern_Stratège</Filter>
+    </ClInclude>
+    <ClInclude Include="I_MoveStyle.h">
+      <Filter>Header Files\Pattern_Stratège</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
